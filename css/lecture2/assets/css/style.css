@@ -1,0 +1,38 @@
+*{
+    background-color: pink;
+    list-style: none;
+    font-size: 20px;
+}
+
+.maindiv{
+    background-color: black;
+    border: 1px solid white;
+}
+
+.parentdiv .child-1{
+    background-color: black;
+}
+
+
+/* child selector */
+
+.maindiv >.parentdiv {
+    background-color: purple;
+}
+
+/* next Sibling Selector  */
+
+.child-1 + span{
+    background-color: aqua;
+}
+
+/* Genaral sibling selector */
+div ~ p{
+    background-color: rgb(7, 128, 96);
+}
+
+/* id selectors */
+#first li{
+    background-color: rgb(72, 152, 201);
+    list-style: georgian;
+}
